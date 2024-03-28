@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>첫번째 세션</title>
+</head>
+<body>
+    <header>
+        <h1>HTML</h1>
+        <p>멋사 12기</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.instagram.com/likelion_sku/" target="_blank">멋사 인스타</a></li>
+            <li><a href="https://www.notion.so/12-dcc8dd408fe54e5488f71ce198f834ed" target="_self">멋사 노션</a></li>
+        </ul>
+        <ol>
+            <li><a href="https://www.naver.com/" target="_blank">네이버</a></li>
+            <li><a href="https://www.facebook.com/?locale=ko_KR" target="_self">페이스북</a></li>
+        </ol>
+    </nav>
+
+    <form>
+        <fieldset>
+            <legend>정보 입력</legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="id">ID</label>
+                    </th>
+                    <td colspan="2">
+                        <input type="text" id="id"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pw">PW</label>
+                    </th>
+                    <td colspan="2">
+                        <input type="text" id="pw">
+                    </td>
+                </tr>
+                <tr>
+                    <th>성별</th>
+                    <td><label for="wm">여자</label>
+                    <input type="radio" name="gender"></td>
+                    <td><label for="m">남자</label>
+                    <input type="radio" name="gender"></td>
+                </tr>
+                <tr>
+                    <th>단과대</th>
+                    <td>
+                        <select>
+                            <option>인문대학</option>
+                            <option>공과대학</option>
+                            <option>예술대학</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2">자신있는 과목</th>
+                    <td>
+                        <input type="checkbox"><label for="kor">국어</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"><label for="eng">영어</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox"><label for="math">수학</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"><label for="math">과학</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="초기화">
+                    </td>
+                    <td>
+                        <input type="submit" value="제출">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <img src="image/sku.jpg" width="300">
+    <footer>
+        <p>&copy; 멋쟁이사자처럼 12기</p>
+        <div>
+            <a href="mailto:dlghdus9949@sungkyul.ac.kr">이메일</a>
+            <a href="https://github.com/dlghdus9949">깃허브</a>
+        </div>
+        <a href="#top">상단으로</a>
+    </footer>
+</body>
+</html>
