@@ -1,0 +1,36 @@
+@media (max-width: 720px){
+    /*Nav*/
+    .nav{
+        align-items: center;
+    }
+    .nav p{
+        font-size: 12px;
+        white-space: pre-line;
+    }
+    .nav li{
+        font-size: 12px;
+    }
+
+    /*Profile*/
+    .profile{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .profileContent{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .profileText{
+        margin-top: 20px;
+    }
+
+    /*first Section*/
+    .first{
+        margin: 10px;
+    }
+    .firstSection p{
+        font-size: 13px;
+        text-align: start;
+    }
+}
