@@ -1,0 +1,73 @@
+/*기본설정*/
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body{
+    margin:0;
+}
+ul{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 192, 228);
+}
+.mainContent{
+    background-color: azure;
+    padding: 0 40px;
+    padding-bottom: 40px;
+}
+p{
+    color: rgb(181, 140, 219);
+}
+
+/* nav 바 꾸미기*/
+a, li, .bold{
+    text-decoration: none;
+    color: rgb(101, 33, 164);
+    font-weight: 600;
+}
+.navContainer{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgb(150, 127, 210);
+    position: fixed;
+    width:100;
+    top:0;
+}
+.navContent{
+    display: flex;
+    margin-right: 60px;
+    gap: 50px;
+}
+
+/*프로필 꾸미기*/
+header{
+    padding: 60px 0 30px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*소개 내용 grid 로 꾸미기*/
+fieldset{
+    padding: 20px 40px;
+    background-color: azure;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 40px;
+}
+/*footer*/
+.bi{
+    font-size: xx-large;
+}
